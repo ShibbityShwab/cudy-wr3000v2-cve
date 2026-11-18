@@ -1,0 +1,4 @@
+# Runtime dependencies for the sanitized PoCs.
+# Install with: python3 -m pip install -r requirements.txt
+PyJWT>=2.0
+paho-mqtt>=2.0

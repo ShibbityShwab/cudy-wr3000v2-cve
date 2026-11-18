@@ -1,0 +1,40 @@
+# Device data and credentials - never commit these
+.omo-secrets/
+*.key
+*.pem
+*.p12
+*.jks
+bdinfo*
+dumps/
+build/
+firmware/
+rootfs*/
+calibration/
+cookies.txt
+*.token
+tokens/
+secrets/
+
+# Vendor binaries and images - never commit these
+*.bin
+*.img
+*.sqfs
+*.ubi
+*.ko
+*.o
+*.a
+*.dtb
+*.dtbo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
